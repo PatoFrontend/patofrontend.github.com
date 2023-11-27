@@ -1,0 +1,117 @@
+html {
+  font-family: "Kanit", sans-serif;
+}
+.tilte {
+  text-transform: uppercase;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #ff8235;
+}
+a:hover {
+  opacity: 0.7;
+}
+
+.conteiner {
+  background: #30e8bf; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff8235,
+    #30e8bf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff8235,
+    #30e8bf
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  max-width: 960px;
+  max-height: 500px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  position: relative;
+  padding: 2.1em;
+}
+.actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+.close {
+  height: 40px;
+  width: 40px;
+  color: white;
+  border-radius: 50%;
+  background-color: cyan;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paragra {
+  line-height: 1.8em;
+  font-weight: 200;
+}
+.fa-heart,
+.fa-heart-o {
+  color: red;
+}
+.table {
+  width: 100%;
+  border-spacing: 0;
+}
+.table td,
+.table th {
+  padding: 1em;
+  text-align: center;
+}
+.table tr:nth-child(even) {
+  background-color: khaki;
+}
+.title-item {
+  /*border-bottom-style: solid;
+  border-width: 4px;
+  border-color: cyan;*/
+  font-size: 2em;
+  border-bottom: solid 4px cyan;
+  padding-bottom: 1em;
+}
+.address {
+  font-weight: bold;
+  color: sandybrown;
+  font-size: 1.2em;
+}
+.imagen {
+  height: 260px;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 2em;
+  margin-top: 0.3em;
+}
+.imagen2 {
+  height: 280px;
+  width: 400px;
+  float: left;
+  margin-right: 1.1em;
+  margin-bottom: 1.5em;
+  margin-top: 0.2em;
+}
+.posicion {
+  background-color: cyan;
+  color: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-right: 2em;
+}
